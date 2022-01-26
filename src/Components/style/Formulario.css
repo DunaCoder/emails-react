@@ -1,0 +1,66 @@
+.colorH1{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+   font-size: 30px;
+}
+.formulario{
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+
+input{
+    display: block;
+}
+
+.estilosInput{
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.textArea{
+    max-height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.botonEstilos{
+    width: 200px;
+    margin: 0px auto;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #ffff;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.botonEstilos:hover{
+    background: #fff;
+    transition:  1s;
+color: #333;
+}
+
+.errorEstilo{
+    border-radius: 100px;
+    text-align: center;
+    color: #e63946;
+    border: solid 1px #e63946;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight:400 ;
+    margin: 10px;
+}
